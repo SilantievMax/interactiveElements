@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>interactive elements</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/choices.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main class="main">
+        <!-- start categories -->
+        <section class="categories">
+            <h2 class="categories__heading">Категории:</h2>
+            <label for="categories1" class="categories__label">
+                <input type="checkbox" class="categories__checkbox" id="categories1">
+                Динозавры
+                <span></span>
+            </label>
+            <label for="categories2" class="categories__label">
+                <input type="checkbox" class="categories__checkbox" id="categories2">
+                Медведи
+                <span></span>
+            </label>
+            <label for="categories3" class="categories__label">
+                <input type="checkbox" class="categories__checkbox" id="categories3">
+                Косули
+                <span></span>
+            </label>
+            <label for="categories4" class="categories__label">
+                <input type="checkbox" class="categories__checkbox" id="categories4">
+                Лисы
+                <span></span>
+            </label>
+            <label for="categories5" class="categories__label">
+                <input type="checkbox" class="categories__checkbox" id="categories5">
+                Волки
+                <span></span>
+            </label>
+            <label for="categories6" class="categories__label">
+                <input type="checkbox" class="categories__checkbox" id="categories6">
+                Олени и лоси
+                <span></span>
+            </label>
+        </section>
+        <!-- next categories -->
+
+        <!-- start material -->
+        <section class="material">
+            <select name="select" class="material__select">
+                <option value="">Материал</option>
+                <option value="">Древесина</option>
+                <option value="">Металл</option>
+                <option value="">Камень</option>
+                <option value="">Пластик</option>
+                <option value="">Композитный</option>
+                <option value="">Гипс</option>
+            </select>
+            <script src="js/choices.min.js"></script>
+            <script>
+                const element = document.querySelector('.material__select');
+                const choices = new Choices(element, {
+                    searchEnabled: false,
+                    itemSelectText: '',
+                });
+            </script>
+        </section>
+        <!-- next material -->
+        <!-- start material -->
+        <section class="material">
+            <select name="select" class="material__select2">
+                <option value="">Материал</option>
+                <option value="">Древесина</option>
+                <option value="">Металл</option>
+                <option value="">Камень</option>
+                <option value="">Пластик</option>
+                <option value="">Композитный</option>
+                <option value="">Гипс</option>
+            </select>
+            <script src="js/choices.min.js"></script>
+            <script>
+                const element2 = document.querySelector('.material__select2');
+                const choices2 = new Choices(element2, {
+                    searchEnabled: false,
+                    itemSelectText: '',
+                });
+            </script>
+        </section>
+        <!-- next material -->
+    </main>
+</body>
+</html>
