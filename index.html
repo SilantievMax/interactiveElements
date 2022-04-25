@@ -27,11 +27,17 @@
         <link rel="stylesheet" href="https://unpkg.com/simplebar@latest/dist/simplebar.css"/>
         <link rel="stylesheet" href="css/simplebar.css">
         <script src="https://unpkg.com/simplebar@latest/dist/simplebar.min.js"></script>
+        <!-- form -->
+        <link rel="stylesheet" href="css/forms.css">
+        <script src="js/inputmask.min.js"></script>
+        <script src="js/inputmask-tel.js"></script>
+        <script src="js/just-validate.min.js"></script>
+        <script src="js/just-validate-form.js"></script>
     </head>
 <body>
     <main class="main">
         <!-- start categories -->
-        <section class="categories">
+        <!-- <section class="categories">
             <h2 class="categories__heading">Категории:</h2>
             <label for="categories1" class="categories__label">
                 <input type="checkbox" class="categories__checkbox" id="categories1">
@@ -63,11 +69,11 @@
                 Олени и лоси
                 <span></span>
             </label>
-        </section>
+        </section> -->
         <!-- next categories -->
 
         <!-- start material -->
-        <section class="material">
+        <!-- <section class="material">
             <select name="select" class="material__select">
                 <option value="">Материал</option>
                 <option value="">Древесина</option>
@@ -77,10 +83,10 @@
                 <option value="">Композитный</option>
                 <option value="">Гипс</option>
             </select>
-        </section>
+        </section> -->
         <!-- next material -->
         <!-- start material -->
-        <section class="material">
+        <!-- <section class="material">
             <select name="select" class="material__select2">
                 <option value="">Материал</option>
                 <option value="">Древесина</option>
@@ -90,22 +96,36 @@
                 <option value="">Композитный</option>
                 <option value="">Гипс</option>
             </select>
-        </section>
+        </section> -->
         <!-- next material -->
         <!-- start yandex-map -->
-        <section class="yandex-map">
+        <!-- <section class="yandex-map">
             <div class="yandex-map__map" id="map"></div>
-        </section>
+        </section> -->
         <!-- next yandex-map -->
         <!-- start simplebar -->
         <section class="simplebar">
             <div class="simplebar__scroll" data-simplebar>
-                Сложно сказать, почему многие известные личности представлены в исключительно положительном свете. Лишь активно развивающиеся страны третьего мира будут объективно рассмотрены соответствующими инстанциями. Мы вынуждены отталкиваться от того, что высокотехнологичная концепция общественного уклада представляет собой интересный эксперимент проверки глубокомысленных рассуждений. Имеется спорная точка зрения, гласящая примерно следующее: непосредственные участники технического прогресса освещают чрезвычайно интересные особенности картины в целом, однако конкретные выводы, разумеется, обнародованы. Значимость этих проблем настолько очевидна, что социально-экономическое развитие, а также свежий взгляд на привычные вещи - безусловно открывает новые горизонты для первоочередных требований.
-                
+                Сложно сказать, почему многие известные личности представлены в исключительно положительном свете. Лишь активно развивающиеся страны третьего мира будут объективно рассмотрены соответствующими инстанциями. Мы вынуждены отталкиваться от того, что высокотехнологичная концепция общественного уклада представляет собой интересный эксперимент проверки глубокомысленных рассуждений. Имеется спорная точка зрения, гласящая примерно следующее: непосредственные участники технического прогресса освещают чрезвычайно интересные особенности картины в целом, однако конкретные выводы, разумеется, обнародованы. Значимость этих проблем настолько очевидна, что социально-экономическое развитие, а также свежий взгляд на привычные вещи - безусловно открывает новые горизонты для первоочередных требований.    
             </div>
         </section>
         <!-- next simplebar -->
-
+        <!-- start forms -->
+        <section action="" class="forms">
+            <form action="" class="forms__form">
+                <span class="forms__container">
+                    <input class="forms__input" type="text" name="Имя" placeholder="Имя*" data-validate-field="name">
+                </span>
+                <span class="forms__container">
+                    <input class="forms__input" type="tel" name="tel" placeholder="Телефон*" data-validate-field="tel" data-validate-rules="phone">
+                </span>
+                <span class="forms__container">
+                    <input class="forms__input" type="email" name="email" placeholder="Email*" data-validate-field="mail">
+                </span>
+                <button class="forms__button">Заказать</button>
+            </form>
+        </section>
+        <!-- next forms -->
     </main>
 </body>
 </html>
