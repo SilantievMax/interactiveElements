@@ -1,0 +1,31 @@
+/* simplebar */
+.simplebar-content-wrapper {
+    overflow: auto;
+  }
+
+.simplebar {
+    margin-left: 58px;
+}
+.simplebar__scroll {
+    background-color: #fff;
+    padding: 20px 30px;
+    width: 399px;
+    max-height: 310px;
+    font-size: 14px;
+    line-height: 170%;
+    color: #333333;
+}
+
+.simplebar-scrollbar {
+    height: 70px !important;
+}
+
+.simplebar-scrollbar:before {
+    height: 70px !important;
+    background: #CCB26E !important;
+}
+
+.simplebar-track {
+    margin-top: 4px;
+    margin-right: 3px;
+}
