@@ -1,0 +1,10 @@
+/* yandex-map */
+.yandex-map__map {
+    margin-left: 58px;
+    width: 460px;
+    height: 460px;
+}
+
+[class*="ground-pane"] {
+    filter: grayscale();
+}

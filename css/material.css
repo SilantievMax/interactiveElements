@@ -1,0 +1,57 @@
+/* material */
+.material {
+    margin-left: 58px;
+}
+
+.choices {
+    width: 176px;
+    height: 39px;
+    border-radius: 10px;
+}
+
+.choices__item  {
+    font-size: 14px;
+    line-height: 19px;
+    color: #333333;
+    opacity: 1;
+}
+
+.choices__list {
+    padding-top: 1px;
+    padding-left: 13px;
+}
+
+.choices[data-type*=select-one]::after {
+    display: none;
+}
+
+.choices__list ::after {
+    content: url(../svg/Rectangle.svg);
+    position: absolute;
+    right: 14.5px;
+}
+
+.choices[data-type*=select-one] .choices__inner {
+    width: 176px;
+    height: 39px;
+    border-radius: 10px;   
+}
+
+.choices__inner {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+
+}
+
+.choices__list .is-active {
+    height: 500px;
+}
+
+.choices__placeholder  {
+    padding-right: 0 !important;
+}
+
+.choices__list {
+    padding-left: 0;
+}

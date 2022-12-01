@@ -1,0 +1,23 @@
+{
+  "name": "interactiveelements",
+  "version": "1.0.0",
+  "description": "___",
+  "main": "index.js",
+  "homepage": "https://silantievmax.github.io/interactiveelements",
+  "scripts": {
+    "deploy": "gh-pages -d ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SilantievMax/interactiveElements.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SilantievMax/interactiveElements/issues"
+  },
+  "homepage": "https://github.com/SilantievMax/interactiveElements#readme",
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}

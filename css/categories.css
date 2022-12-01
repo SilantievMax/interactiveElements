@@ -1,0 +1,54 @@
+/* categories */
+.categories {
+    padding: 30px;
+    padding-top: 21px;
+    max-width: 178px;
+    height: 309px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.categories__heading {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #333333;
+}
+
+.categories__label {
+    position: relative;
+    cursor: pointer;
+    display: block;
+    font-size: 14px;
+    line-height: 19px;
+    color: #333333;
+    padding-top: 20px;
+    padding-left: 24px;
+}
+
+.categories__checkbox {
+    display: none;
+}
+
+.categories__checkbox + span {
+    position: absolute;
+    top: 23px;
+    left: 0;
+    width: 14px;
+    height: 14px;
+    text-align: center;    
+}
+
+.categories__checkbox + span::before {
+    content: url(/svg/check.svg);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;    
+}
+
+.categories__checkbox:checked + span::before {
+    content: url(/svg/check-active.svg);
+}

@@ -1,0 +1,24 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+body {
+    background-color: #424242;
+    width: 2878px;
+    height: 640px;
+    padding: 70px 92px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    display: flex;
+}
+
+
+/* form */
